@@ -1,0 +1,285 @@
+html {
+	font-family: Helvetica; 
+	color: white;
+	cursor: url("images/cursor.cur"), auto;
+}
+
+body {
+	background: #e6e9ef;
+	margin: 0;
+}
+
+#container {
+	background: #1564bf;
+	width: 1280px;
+	margin: 0 auto;
+}
+
+@font-face {
+    font-family: "overwatch";
+    src: url(overwatch.ttf) format("truetype");
+}
+
+#header {
+	width:100%;
+	height: 80px;
+	background: #003b8e;
+}
+
+#logo {
+	float:left;
+	width: 60px;
+	height: 70px;
+	margin: 5px;
+	background: url('images/jeph.jpg');
+}
+
+#top_info {
+
+	width: 1000px;
+	height: 40px;
+	margin: 10px;
+	font-size: 40px;
+	font-family: overwatch;
+	padding-left: 320px;
+	padding-top: 20px;
+	color:white;
+}
+
+#container #top_info a {
+	text-decoration: none;
+	color: white;
+}
+
+#container #top_info a:hover {
+	font-size: 50px;
+	color: #ffba0c;
+}
+
+#banner {
+	background:#1976d2;
+	height: 820px;
+	float:left;
+	width:700px;
+	position:relative;
+}
+
+#left_col {
+	float: left;
+	width: 250px;
+	height: 780px;
+	color: #FFF;
+	padding: 20px;
+	background: #63a4ff;
+
+	}
+
+#right_col {
+	float: right;
+	width: 250px;
+	height: 780px;
+	color: #FFF;
+	padding: 20px;
+	background: #63a4ff;
+	
+}
+#footer {
+	padding: 10px;
+	clear: both;
+	font-family: Helvetica Arial;
+	font-size: 20px;
+}
+
+#footer .over {
+	
+	font-family: overwatch;
+
+}
+
+#left_col .sound {
+	width: 210px;
+	margin-top: 20px;
+	height: 35px;
+	background: #0069c0;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+#name {
+	width: 230px;
+	margin-top: 20px;
+	height: 100px;
+	background: #0069c0;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 10px;
+	font-family: overwatch;
+	font-size: 40px;
+	
+}
+
+#note {
+	width: 230px;
+	margin-top: 20px;
+	height: 145px;
+	background: #0069c0;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 10px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#description {
+	width: 230px;
+	margin-top: 20px;
+	height: 200px;
+	background: #0069c0;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 10px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#thanks {
+	width: 230px;
+	margin-top: 20px;
+	height: 150px;
+	background: #0069c0;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 10px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#buy {
+	padding-top: 100px;
+	font-size: 100px;
+	text-align: center;
+	font-family: overwatch;
+	position: absolute;
+	width: 205px;
+	height: 205px;
+}
+
+#buy_bastion {
+
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background: url('buy_bastion.png');
+	top: 205px;
+	padding-top: 150px;
+	color: FFAE00;
+	font-family: overwatch;
+	font-size: 50px;
+	text-align:right;
+}
+
+#buy_genji {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background: url('buy_genji.png');
+	top: 410px;
+	padding-top: 150px;
+	color: FFAE00;
+	font-family: overwatch;
+	font-size: 50px;
+	text-align:right;
+}
+
+#buy_mei {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background: url('buy_mei.png');
+	top: 615px;
+	
+}
+
+#buy_mei div{
+	padding-top: 140px;
+	color: FFAE00;
+	font-family: overwatch;
+	font-size: 50px;
+	text-align:right;
+}
+
+#click {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background: url('overwatch_symbol.png');
+	left: 250px;
+	top: 300px;
+}
+
+#credits {
+	padding-top: 100px;
+	padding-left: 20px;
+	position: absolute;
+	width: 200px;
+	height: 205px;
+	left: 230px;
+	top: 500px;
+	font-family: overwatch;
+	font-size: 50px;
+	text-align: center;
+}
+
+#you_have {
+	text-align: center;
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	left: 495px;
+	font-family: overwatch;
+	font-size: 100px;
+}
+
+#have_bastion {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background: url('have_bastion.png');
+	left: 495px;
+	top:205px;
+	padding-top: 150px;
+	color: FFAE00;
+	font-family: overwatch;
+	font-size: 50px;
+}
+
+#have_genji {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background: url('have_genji.png');
+	left: 495px;
+	top:410px;
+	padding-top: 150px;
+	color: FFAE00;
+	font-family: overwatch;
+	font-size: 50px;
+}
+
+#have_mei {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background: url('have_mei.png');
+	left: 495px;
+	top:615px;
+	
+}
+
+#have_mei div {
+	margin-top: 155px;
+	color: FFAE00;
+	font-family: overwatch;
+	font-size: 50px;
+}
